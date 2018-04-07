@@ -1,4 +1,4 @@
-# Quad Probabiity Gate
+# Quad Probability Gate
 
 A module that has one gate input, one cv input and four gate outputs. 
 
