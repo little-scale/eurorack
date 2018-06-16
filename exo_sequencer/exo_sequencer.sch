@@ -4856,6 +4856,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.33µF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5011,6 +5012,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <instance part="GND29" gate="1" x="-40.64" y="-2.54"/>
 <instance part="C1" gate="G$1" x="-58.42" y="2.54"/>
 <instance part="C2" gate="G$1" x="-17.78" y="5.08" rot="R180"/>
+<instance part="SUPPLY10" gate="G$1" x="-25.4" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -5974,6 +5976,12 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="D49" gate="G$1" pin="C"/>
 <wire x1="-96.52" y1="55.88" x2="-96.52" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="G$1" pin="3.3V"/>
+<wire x1="-5.08" y1="10.16" x2="-25.4" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
