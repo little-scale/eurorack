@@ -1,0 +1,17 @@
+Exo Sequencer 
+Bill of Materials
+
+16 x 25k linear potentiometers
+34 x 1n4148 diodes
+16 x WP710A10ID5V 3mm red LEDs with internal resistor
+11 x PJ301M-12 3.5mm sockets
+9 x 1k resistor
+2 x 100R resistor
+1 x 7805 5V regulator
+1 x 0.33 uF capacitor
+1 x 0.1 uF capacitor 
+1 x Teensy LC or Teensy 3.5 with pins
+1 x front PCB
+1 x back PCB
+2 x 16 pin 2.54mm pitch pin header female
+2 x 16 pin 2.54mm pitch pin header male
